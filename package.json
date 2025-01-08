@@ -1,0 +1,28 @@
+{
+  "name": "@alaazorkane/airdrop",
+  "version": "0.0.1",
+  "description": "Turbin3 typescript pre-requisites",
+  "main": "index.js",
+  "scripts": {
+    "keygen": "ts-node keygen.ts",
+    "airdrop": "ts-node airdrop.ts",
+    "transfer": "ts-node transfer.ts",
+    "enroll": "ts-node enroll.ts",
+    "phantom": "ts-node phantom.ts",
+    "keygen:export": "ts-node keygen.ts export"
+  },
+  "author": "Alaa Zorkane",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.98.0",
+    "@types/node": "^22.10.5",
+    "bs58": "^6.0.0",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "pnpm@9.15.3",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "ts-node": "^10.9.2"
+  }
+}
